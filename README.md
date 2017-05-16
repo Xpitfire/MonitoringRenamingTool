@@ -18,3 +18,9 @@ Parameter | Description
 -file-prefix | prefix of the generated file (includes internal counter)
 -output | optional parameter for defining the destination path
 -interval | optional interval for the monitoring in seconds
+
+## Example
+
+```
+java -jar MonitoringRenamer.jar -path /tmp/test -file-prefix test_ -output /tmp/processed -interval 10
+```
