@@ -1,9 +1,15 @@
-# Usage
+# Documentation
+Simple tool to monitor files in a directory, which should be moved and renamed.
+
+## Requirements
+[Java 6](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase6-419409.html#jre-6u45-oth-JPR) or [higher](https://java.com/de/download/)
+
+## Usage
 [Download](https://github.com/Xpitfire/MonitoringRenamingTool/releases) release java file.
 
 Execute:
 ```
-java MonitoringRenamer.jar -path <path-to-monitor> -file-prefix <prefix> -output <path-to-output> -interval <seconds>
+java -jar MonitoringRenamer.jar -path <path-to-monitor> -file-prefix <prefix> -output <path-to-output> -interval <seconds>
 ```
 
 Parameter | Description
