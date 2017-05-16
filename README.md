@@ -7,7 +7,7 @@ Simple tool to monitor files in a directory, which should be moved and renamed.
 ## Usage
 [Download](https://github.com/Xpitfire/MonitoringRenamingTool/releases) release java file.
 
-Execute:
+Open command prompt or PowerShell and execute:
 ```
 java -jar MonitoringRenamer.jar -path <path-to-monitor> -file-prefix <prefix> -output <path-to-output> -interval <seconds>
 ```
