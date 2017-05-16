@@ -17,4 +17,4 @@ Parameter | Description
 -path | path which should be monitored
 -file-prefix | prefix of the generated file (includes internal counter)
 -output | optional parameter for defining the destination path
--interval | interval for the monitoring in seconds
+-interval | optional interval for the monitoring in seconds
